@@ -40,18 +40,33 @@ public class CalculadoraTests
          Assert.True(resultado);
     }
 
+    // [Theory]
+    // [InlineData(2)]
+    // [InlineData(4)]
+    // [InlineData(6)]
+    // [InlineData(8)]
+    // [InlineData(10)]
+    // public void DeveVerificarSeOsNumerosSaoParesERetorneVerdadeiro(int numero){
+
+    //     //Act
+    //     bool resultado = _calc.IsPar(numero);
+
+    //     //Assert
+    //     Assert.True(resultado);
+    // }
+
     [Theory]
-    [InlineData(2)]
-    [InlineData(4)]
-    [InlineData(6)]
-    [InlineData(8)]
-    [InlineData(10)]
-    public void DeveVerificarSeOsNumerosSaoParesERetorneVerdadeiro(int numero){
+    [InlineData(new int[] {2, 4})]
+    [InlineData(new int[] {6, 8, 10})]
+    public void DeveVerificarSeOsNumerosSaoParesERetorneVerdadeiro(int[] numeros){
 
-        //Act
-        bool resultado = _calc.IsPar(numero);
+        //Act / Assert
 
-        //Assert
-        Assert.True(resultado);
+        // foreach(var item in numeros){
+
+        //     Assert.True(_calc.IsPar(item));
+        // }
+
+        Assert.All(numeros, num => Assert.True(_calc.IsPar(num)));
     }
 }
