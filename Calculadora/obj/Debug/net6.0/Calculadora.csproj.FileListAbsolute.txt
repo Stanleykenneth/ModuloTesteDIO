@@ -1,0 +1,15 @@
+D:\C# - DIO\ModuloTesteDIO\ModuloTesteDIO\Calculadora\bin\Debug\net6.0\Calculadora.exe
+D:\C# - DIO\ModuloTesteDIO\ModuloTesteDIO\Calculadora\bin\Debug\net6.0\Calculadora.deps.json
+D:\C# - DIO\ModuloTesteDIO\ModuloTesteDIO\Calculadora\bin\Debug\net6.0\Calculadora.runtimeconfig.json
+D:\C# - DIO\ModuloTesteDIO\ModuloTesteDIO\Calculadora\bin\Debug\net6.0\Calculadora.dll
+D:\C# - DIO\ModuloTesteDIO\ModuloTesteDIO\Calculadora\bin\Debug\net6.0\Calculadora.pdb
+D:\C# - DIO\ModuloTesteDIO\ModuloTesteDIO\Calculadora\obj\Debug\net6.0\Calculadora.csproj.AssemblyReference.cache
+D:\C# - DIO\ModuloTesteDIO\ModuloTesteDIO\Calculadora\obj\Debug\net6.0\Calculadora.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# - DIO\ModuloTesteDIO\ModuloTesteDIO\Calculadora\obj\Debug\net6.0\Calculadora.AssemblyInfoInputs.cache
+D:\C# - DIO\ModuloTesteDIO\ModuloTesteDIO\Calculadora\obj\Debug\net6.0\Calculadora.AssemblyInfo.cs
+D:\C# - DIO\ModuloTesteDIO\ModuloTesteDIO\Calculadora\obj\Debug\net6.0\Calculadora.csproj.CoreCompileInputs.cache
+D:\C# - DIO\ModuloTesteDIO\ModuloTesteDIO\Calculadora\obj\Debug\net6.0\Calculadora.dll
+D:\C# - DIO\ModuloTesteDIO\ModuloTesteDIO\Calculadora\obj\Debug\net6.0\refint\Calculadora.dll
+D:\C# - DIO\ModuloTesteDIO\ModuloTesteDIO\Calculadora\obj\Debug\net6.0\Calculadora.pdb
+D:\C# - DIO\ModuloTesteDIO\ModuloTesteDIO\Calculadora\obj\Debug\net6.0\Calculadora.genruntimeconfig.cache
+D:\C# - DIO\ModuloTesteDIO\ModuloTesteDIO\Calculadora\obj\Debug\net6.0\ref\Calculadora.dll
