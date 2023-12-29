@@ -25,6 +25,33 @@ public class CalculadoraTests
 
         //Assert - Valida se o que foi passado obteve o resultado esperado.
         Assert.Equal(15, resultado);
-
     }   
+
+    [Fact]
+    public void DeveVerificarSe4IsParERetornarVerdadeiro(){
+
+         //Arrange   
+         int numero = 4;
+
+         //Act
+         bool resultado = _calc.IsPar(numero);
+
+         //Assert
+         Assert.True(resultado);
+    }
+
+    [Theory]
+    [InlineData(2)]
+    [InlineData(4)]
+    [InlineData(6)]
+    [InlineData(8)]
+    [InlineData(10)]
+    public void DeveVerificarSeOsNumerosSaoParesERetorneVerdadeiro(int numero){
+
+        //Act
+        bool resultado = _calc.IsPar(numero);
+
+        //Assert
+        Assert.True(resultado);
+    }
 }
